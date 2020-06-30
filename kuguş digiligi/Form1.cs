@@ -9,6 +9,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/*
+
+    Bu yazılımın kodları u/batu-_-batu ya aittir.
+    Lütfen bu programı değiştirerek veya değiştirmeyerek tekrar yayınlamayın ve üzerinden prim yapmayın
+    İyi kullanımlar
+
+*/
 namespace kuguş_digiligi
 {
     public partial class Form1 : Form
