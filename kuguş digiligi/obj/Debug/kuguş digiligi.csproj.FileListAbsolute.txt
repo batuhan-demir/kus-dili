@@ -1,0 +1,10 @@
+C:\Users\batuhan\source\repos\kuguş digiligi\kuguş digiligi\obj\Debug\kuguş digiligi.csprojAssemblyReference.cache
+C:\Users\batuhan\source\repos\kuguş digiligi\kuguş digiligi\obj\Debug\kuguş_digiligi.Form1.resources
+C:\Users\batuhan\source\repos\kuguş digiligi\kuguş digiligi\obj\Debug\kuguş_digiligi.Properties.Resources.resources
+C:\Users\batuhan\source\repos\kuguş digiligi\kuguş digiligi\obj\Debug\kuguş digiligi.csproj.GenerateResource.cache
+C:\Users\batuhan\source\repos\kuguş digiligi\kuguş digiligi\obj\Debug\kuguş digiligi.csproj.CoreCompileInputs.cache
+C:\Users\batuhan\source\repos\kuguş digiligi\kuguş digiligi\bin\Debug\kuguş digiligi.exe.config
+C:\Users\batuhan\source\repos\kuguş digiligi\kuguş digiligi\bin\Debug\kuguş digiligi.exe
+C:\Users\batuhan\source\repos\kuguş digiligi\kuguş digiligi\bin\Debug\kuguş digiligi.pdb
+C:\Users\batuhan\source\repos\kuguş digiligi\kuguş digiligi\obj\Debug\kuguş digiligi.exe
+C:\Users\batuhan\source\repos\kuguş digiligi\kuguş digiligi\obj\Debug\kuguş digiligi.pdb
