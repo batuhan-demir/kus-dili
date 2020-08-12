@@ -87,6 +87,11 @@
     <None Include="Resources\porcay.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\temizle.png" />
+    <None Include="bin\Debug\kopyala.png" />
+    <None Include="bin\Debug\ayarlar.png" />
+    <None Include="bin\Debug\guncelleme.png" />
+    <None Include="bin\Debug\kaydet.png" />
     <Content Include="kusdili.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
