@@ -92,6 +92,8 @@
     <None Include="bin\Debug\ayarlar.png" />
     <None Include="bin\Debug\guncelleme.png" />
     <None Include="bin\Debug\kaydet.png" />
+    <None Include="bin\Debug\down.png" />
+    <None Include="bin\Debug\up.png" />
     <Content Include="kusdili.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

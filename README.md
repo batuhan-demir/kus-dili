@@ -4,4 +4,4 @@ https://www.reddit.com/r/burdurland/comments/hhyxne/biliyorum_%C3%B6nceden_de_ya
 
 Lütfen izinsiz değiştirip veya değiştirmeden paylaşmayın ve prim kasmayın
 
-Program Sürümü: v2.1
+Program Sürümü: v2.1.1

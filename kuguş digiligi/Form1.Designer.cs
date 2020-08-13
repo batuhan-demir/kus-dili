@@ -44,28 +44,30 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelAyarlar = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnArkaplanRengi = new System.Windows.Forms.Button();
+            this.cbUpdateOto = new System.Windows.Forms.CheckBox();
+            this.cbKopyalandi = new System.Windows.Forms.CheckBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pbAyarKaydet = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pbGuncelleme = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.cbEnterTusu = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.lblUpperCase = new System.Windows.Forms.Label();
+            this.pbAyarKaydet = new System.Windows.Forms.PictureBox();
+            this.pbGuncelleme = new System.Windows.Forms.PictureBox();
             this.pbAyarlar = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pbBurdurland = new System.Windows.Forms.PictureBox();
-            this.cbKopyalandi = new System.Windows.Forms.CheckBox();
-            this.cbUpdateOto = new System.Windows.Forms.CheckBox();
-            this.btnArkaplanRengi = new System.Windows.Forms.Button();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.lblDownCase = new System.Windows.Forms.Label();
             this.panelAyarlar.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbAyarKaydet)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbAyarKaydet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbGuncelleme)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAyarlar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -218,6 +220,42 @@
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             // 
+            // btnArkaplanRengi
+            // 
+            this.btnArkaplanRengi.BackColor = System.Drawing.Color.Transparent;
+            this.btnArkaplanRengi.FlatAppearance.BorderSize = 3;
+            this.btnArkaplanRengi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnArkaplanRengi.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnArkaplanRengi.Location = new System.Drawing.Point(6, 201);
+            this.btnArkaplanRengi.Name = "btnArkaplanRengi";
+            this.btnArkaplanRengi.Size = new System.Drawing.Size(115, 38);
+            this.btnArkaplanRengi.TabIndex = 21;
+            this.btnArkaplanRengi.Text = "Arkaplan Rengi";
+            this.btnArkaplanRengi.UseVisualStyleBackColor = false;
+            this.btnArkaplanRengi.Click += new System.EventHandler(this.btnArkaplanRengi_Click);
+            // 
+            // cbUpdateOto
+            // 
+            this.cbUpdateOto.AutoSize = true;
+            this.cbUpdateOto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cbUpdateOto.Location = new System.Drawing.Point(334, 100);
+            this.cbUpdateOto.Name = "cbUpdateOto";
+            this.cbUpdateOto.Size = new System.Drawing.Size(187, 30);
+            this.cbUpdateOto.TabIndex = 20;
+            this.cbUpdateOto.Text = "Başlangıçta Otomatik Olarak\r\n Güncellemeleri Kontrol Et";
+            this.cbUpdateOto.UseVisualStyleBackColor = true;
+            // 
+            // cbKopyalandi
+            // 
+            this.cbKopyalandi.AutoSize = true;
+            this.cbKopyalandi.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cbKopyalandi.Location = new System.Drawing.Point(6, 115);
+            this.cbKopyalandi.Name = "cbKopyalandi";
+            this.cbKopyalandi.Size = new System.Drawing.Size(144, 17);
+            this.cbKopyalandi.TabIndex = 19;
+            this.cbKopyalandi.Text = "\"Kopyalandı\" Bildirisi";
+            this.cbKopyalandi.UseVisualStyleBackColor = true;
+            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.pbAyarKaydet);
@@ -227,17 +265,6 @@
             this.panel3.Size = new System.Drawing.Size(121, 86);
             this.panel3.TabIndex = 18;
             this.panel3.Click += new System.EventHandler(this.pbAyarKaydet_Click);
-            // 
-            // pbAyarKaydet
-            // 
-            this.pbAyarKaydet.Image = global::kuguş_digiligi.Properties.Resources.kaydet;
-            this.pbAyarKaydet.Location = new System.Drawing.Point(3, 3);
-            this.pbAyarKaydet.Name = "pbAyarKaydet";
-            this.pbAyarKaydet.Size = new System.Drawing.Size(113, 66);
-            this.pbAyarKaydet.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbAyarKaydet.TabIndex = 14;
-            this.pbAyarKaydet.TabStop = false;
-            this.pbAyarKaydet.Click += new System.EventHandler(this.pbAyarKaydet_Click);
             // 
             // label7
             // 
@@ -259,17 +286,6 @@
             this.panel2.Size = new System.Drawing.Size(121, 86);
             this.panel2.TabIndex = 17;
             this.panel2.Click += new System.EventHandler(this.pbGuncelleme_Click);
-            // 
-            // pbGuncelleme
-            // 
-            this.pbGuncelleme.Image = global::kuguş_digiligi.Properties.Resources.guncelleme;
-            this.pbGuncelleme.Location = new System.Drawing.Point(3, 3);
-            this.pbGuncelleme.Name = "pbGuncelleme";
-            this.pbGuncelleme.Size = new System.Drawing.Size(113, 66);
-            this.pbGuncelleme.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbGuncelleme.TabIndex = 14;
-            this.pbGuncelleme.TabStop = false;
-            this.pbGuncelleme.Click += new System.EventHandler(this.pbGuncelleme_Click);
             // 
             // label6
             // 
@@ -314,6 +330,45 @@
             this.label4.TabIndex = 12;
             this.label4.Text = "X";
             this.label4.Click += new System.EventHandler(this.lblAyarKapat);
+            // 
+            // colorDialog1
+            // 
+            this.colorDialog1.Color = System.Drawing.Color.DeepSkyBlue;
+            // 
+            // lblUpperCase
+            // 
+            this.lblUpperCase.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblUpperCase.Image = global::kuguş_digiligi.Properties.Resources.up;
+            this.lblUpperCase.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblUpperCase.Location = new System.Drawing.Point(121, 304);
+            this.lblUpperCase.Name = "lblUpperCase";
+            this.lblUpperCase.Size = new System.Drawing.Size(80, 45);
+            this.lblUpperCase.TabIndex = 12;
+            this.lblUpperCase.Text = "Büyük Harf";
+            this.lblUpperCase.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.lblUpperCase.Click += new System.EventHandler(this.lblUpperCase_Click);
+            // 
+            // pbAyarKaydet
+            // 
+            this.pbAyarKaydet.Image = global::kuguş_digiligi.Properties.Resources.kaydet;
+            this.pbAyarKaydet.Location = new System.Drawing.Point(3, 3);
+            this.pbAyarKaydet.Name = "pbAyarKaydet";
+            this.pbAyarKaydet.Size = new System.Drawing.Size(113, 66);
+            this.pbAyarKaydet.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbAyarKaydet.TabIndex = 14;
+            this.pbAyarKaydet.TabStop = false;
+            this.pbAyarKaydet.Click += new System.EventHandler(this.pbAyarKaydet_Click);
+            // 
+            // pbGuncelleme
+            // 
+            this.pbGuncelleme.Image = global::kuguş_digiligi.Properties.Resources.guncelleme;
+            this.pbGuncelleme.Location = new System.Drawing.Point(3, 3);
+            this.pbGuncelleme.Name = "pbGuncelleme";
+            this.pbGuncelleme.Size = new System.Drawing.Size(113, 66);
+            this.pbGuncelleme.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbGuncelleme.TabIndex = 14;
+            this.pbGuncelleme.TabStop = false;
+            this.pbGuncelleme.Click += new System.EventHandler(this.pbGuncelleme_Click);
             // 
             // pbAyarlar
             // 
@@ -364,45 +419,18 @@
             this.pbBurdurland.TabStop = false;
             this.pbBurdurland.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // cbKopyalandi
+            // lblDownCase
             // 
-            this.cbKopyalandi.AutoSize = true;
-            this.cbKopyalandi.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cbKopyalandi.Location = new System.Drawing.Point(6, 115);
-            this.cbKopyalandi.Name = "cbKopyalandi";
-            this.cbKopyalandi.Size = new System.Drawing.Size(144, 17);
-            this.cbKopyalandi.TabIndex = 19;
-            this.cbKopyalandi.Text = "\"Kopyalandı\" Bildirisi";
-            this.cbKopyalandi.UseVisualStyleBackColor = true;
-            // 
-            // cbUpdateOto
-            // 
-            this.cbUpdateOto.AutoSize = true;
-            this.cbUpdateOto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cbUpdateOto.Location = new System.Drawing.Point(334, 100);
-            this.cbUpdateOto.Name = "cbUpdateOto";
-            this.cbUpdateOto.Size = new System.Drawing.Size(187, 30);
-            this.cbUpdateOto.TabIndex = 20;
-            this.cbUpdateOto.Text = "Başlangıçta Otomatik Olarak\r\n Güncellemeleri Kontrol Et";
-            this.cbUpdateOto.UseVisualStyleBackColor = true;
-            // 
-            // btnArkaplanRengi
-            // 
-            this.btnArkaplanRengi.BackColor = System.Drawing.Color.Transparent;
-            this.btnArkaplanRengi.FlatAppearance.BorderSize = 3;
-            this.btnArkaplanRengi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnArkaplanRengi.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnArkaplanRengi.Location = new System.Drawing.Point(6, 201);
-            this.btnArkaplanRengi.Name = "btnArkaplanRengi";
-            this.btnArkaplanRengi.Size = new System.Drawing.Size(115, 38);
-            this.btnArkaplanRengi.TabIndex = 21;
-            this.btnArkaplanRengi.Text = "Arkaplan Rengi";
-            this.btnArkaplanRengi.UseVisualStyleBackColor = false;
-            this.btnArkaplanRengi.Click += new System.EventHandler(this.btnArkaplanRengi_Click);
-            // 
-            // colorDialog1
-            // 
-            this.colorDialog1.Color = System.Drawing.Color.DeepSkyBlue;
+            this.lblDownCase.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblDownCase.Image = global::kuguş_digiligi.Properties.Resources.down;
+            this.lblDownCase.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblDownCase.Location = new System.Drawing.Point(225, 304);
+            this.lblDownCase.Name = "lblDownCase";
+            this.lblDownCase.Size = new System.Drawing.Size(80, 45);
+            this.lblDownCase.TabIndex = 12;
+            this.lblDownCase.Text = "Küçük Harf";
+            this.lblDownCase.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.lblDownCase.Click += new System.EventHandler(this.lblDownCase_Click);
             // 
             // Form1
             // 
@@ -412,6 +440,8 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(622, 384);
             this.Controls.Add(this.panelAyarlar);
+            this.Controls.Add(this.lblDownCase);
+            this.Controls.Add(this.lblUpperCase);
             this.Controls.Add(this.pbAyarlar);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -429,7 +459,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Kuş Dili Çevirici v2.1 ßy u/batu-_-batu";
+            this.Text = "Kuş Dili Çevirici v2.1.1 ßy u/batu-_-batu";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Click += new System.EventHandler(this.Form1_Click);
             this.panelAyarlar.ResumeLayout(false);
@@ -438,9 +468,9 @@
             this.groupBox1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbAyarKaydet)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbAyarKaydet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbGuncelleme)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAyarlar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -483,6 +513,8 @@
         public System.Windows.Forms.CheckBox cbUpdateOto;
         public System.Windows.Forms.Button btnArkaplanRengi;
         public System.Windows.Forms.ColorDialog colorDialog1;
+        private System.Windows.Forms.Label lblUpperCase;
+        private System.Windows.Forms.Label lblDownCase;
     }
 }
 

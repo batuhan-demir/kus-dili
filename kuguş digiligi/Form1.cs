@@ -37,7 +37,10 @@ namespace kuguş_digiligi
                 {
                     if (i == unlu)
                     {
-                        metin += txtKus.Text + i.ToString().ToLower();
+                        if (char.IsUpper(i))
+                            metin += txtKus.Text + i.ToString();
+                        else
+                            metin += txtKus.Text + i.ToString().ToLower();
                     }
 
                 }
@@ -267,6 +270,16 @@ namespace kuguş_digiligi
             {
                 btnArkaplanRengi.BackColor = BackColor = colorDialog1.Color;
             }
+        }
+
+        private void lblUpperCase_Click(object sender, EventArgs e)
+        {
+            çıktı.Text = çıktı.Text.ToUpper();
+        }
+
+        private void lblDownCase_Click(object sender, EventArgs e)
+        {
+            çıktı.Text = çıktı.Text.ToLower();
         }
     }
 }
